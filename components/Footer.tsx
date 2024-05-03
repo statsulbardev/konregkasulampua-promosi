@@ -129,6 +129,68 @@ const navigation = {
       href: "https://www.bi.go.id/id/tentang-bi/profil/organisasi/Pages/Kantor-Perwakilan-Provinsi-Papua-Barat.aspx",
     },
   ],
+  djpb: [
+    {
+      name: "Kanwil Kalimantan Selatan",
+      href: "https://djpb.kemenkeu.go.id/kanwil/kalsel/id/",
+    },
+    {
+      name: "Kanwil Kalimantan Barat",
+      href: "https://djpb.kemenkeu.go.id/kanwil/kalbar/id/",
+    },
+    {
+      name: "Kanwil Kalimantan Tengah",
+      href: "https://djpb.kemenkeu.go.id/kanwil/kalteng/id/",
+    },
+    {
+      name: "Kanwil Kalimantan Timur",
+      href: "https://djpb.kemenkeu.go.id/kanwil/kaltim/id/",
+    },
+    {
+      name: "Kanwil Kalimantan Utara",
+      href: "https://djpb.kemenkeu.go.id/kanwil/kaltara/id/",
+    },
+    {
+      name: "Kanwil Sulawesi Utara",
+      href: "https://djpb.kemenkeu.go.id/kanwil/sulut/id/",
+    },
+    {
+      name: "Kanwil Sulawesi Tengah",
+      href: "https://djpb.kemenkeu.go.id/kanwil/sulteng/id/",
+    },
+    {
+      name: "Kanwil Sulawesi Selatan",
+      href: "https://djpb.kemenkeu.go.id/kanwil/sulsel/id/",
+    },
+    {
+      name: "Kanwil Sulawesi Tenggara",
+      href: "https://djpb.kemenkeu.go.id/kanwil/sultra/id/",
+    },
+    {
+      name: "Kanwil Sulawesi Barat",
+      href: "https://djpb.kemenkeu.go.id/kanwil/sulbar/id/",
+    },
+    {
+      name: "Kanwil Gorontalo",
+      href: "https://djpb.kemenkeu.go.id/kanwil/gorontalo/id/",
+    },
+    {
+      name: "Kanwil Maluku",
+      href: "https://djpb.kemenkeu.go.id/kanwil/maluku/id/",
+    },
+    {
+      name: "Kanwil Maluku Utara",
+      href: "https://djpb.kemenkeu.go.id/kanwil/malut/id/",
+    },
+    {
+      name: "Kanwil Papua",
+      href: "https://djpb.kemenkeu.go.id/kanwil/papua/id/",
+    },
+    {
+      name: "Kanwil Papua Barat",
+      href: "https://djpb.kemenkeu.go.id/kanwil/papuabarat/id/",
+    },
+  ],
 };
 
 export function FooterContent() {
@@ -140,7 +202,7 @@ export function FooterContent() {
       <div className="mx-auto w-full py-8">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="grid grid-cols-1 gap-8 xl:col-span-2">
-            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 md:gap-8">
+            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 md:gap-4">
               <div className="mt-12 md:!mt-0">
                 <FooterHeader>Pemerintah Daerah</FooterHeader>
                 <ul role="list" className="ml-0 mt-2 list-none space-y-1.5">
@@ -165,6 +227,16 @@ export function FooterContent() {
                 <FooterHeader>Bank Indonesia</FooterHeader>
                 <ul role="list" className="ml-0 mt-2 list-none space-y-1.5">
                   {navigation.bi.map((item) => (
+                    <li key={item.name}>
+                      <FooterLink href={item.href}>{item.name}</FooterLink>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className="mt-12 md:!mt-0">
+                <FooterHeader>Ditjen Perbendaharaan</FooterHeader>
+                <ul role="list" className="ml-0 mt-2 list-none space-y-1.5">
+                  {navigation.djpb.map((item) => (
                     <li key={item.name}>
                       <FooterLink href={item.href}>{item.name}</FooterLink>
                     </li>

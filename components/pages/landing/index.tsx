@@ -38,7 +38,7 @@ function Sponsor() {
         Didukung oleh:
       </p>
       <div className="grid grid-flow-col grid-cols-3 sm:grid-rows-3 md:grid-rows-2 lg:grid-rows-1">
-        <Sponsors companyList={["Pemda", "BPS", "BI"]} staticWidth />
+        <Sponsors companyList={["Pemda", "BPS", "BI", "DJPB"]} staticWidth />
       </div>
     </div>
   );
@@ -106,7 +106,7 @@ function LandingPage() {
         <FadeIn className="z-10">
           <div className="mt-3 flex flex-col gap-3 md:!flex-row">
             <a
-              href="https://chat.whatsapp.com/EhWJcq8cMr6GeT7G9IRIQB"
+              href="https://chat.whatsapp.com/IGDsCsQpPJ74aB0f8KY6o5"
               className="inline-flex items-center rounded-lg bg-black px-3 py-3 text-center text-sm font-medium text-white hover:bg-gray-800 focus:outline-none focus:ring-4 focus:ring-gray-300 dark:bg-white dark:text-black dark:hover:bg-gray-100 dark:focus:ring-gray-800"
             >
               <span>

@@ -21,11 +21,19 @@ const mal = [
   },
   {
     id: 3,
-    foto: "/minimarket/cendera-mata.jpg",
-    nama: "Toko Cenderamata Sulbar",
-    jarak: "0,9",
-    waktu: 3,
-    gmaps: "https://maps.app.goo.gl/cBbm6LhQy3aUx5K57",
+    foto: "/minimarket/subur.jpg",
+    nama: "Toko Subur Union",
+    jarak: "1,1",
+    waktu: 5,
+    gmaps: "https://maps.app.goo.gl/JE3EzgVJfGBbaV2S9",
+  },
+  {
+    id: 4,
+    foto: "/minimarket/family.jpg",
+    nama: "Toko Family",
+    jarak: "1,1",
+    waktu: 5,
+    gmaps: "https://maps.app.goo.gl/ayjJoNAixSyZ66EQ9",
   },
 ];
 

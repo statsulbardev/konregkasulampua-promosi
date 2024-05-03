@@ -13,6 +13,15 @@ const oleh = [
     gmaps: "https://maps.app.goo.gl/6w8PRrvRxKGQCpcb7",
     kontak: "https://wa.me/081245959890",
   },
+  {
+    id: 2,
+    foto: "/oleh/bagea-crispy.jpg",
+    nama: "Bagea Crispy",
+    kategori: "oleh-oleh",
+    tag: "Makanan ringan, suvenir",
+    gmaps: "https://maps.app.goo.gl/VGgXVdK3rETuHciu5",
+    kontak: "https://wa.me/081340899397",
+  },
 ];
 
 export function Oleholeh() {
