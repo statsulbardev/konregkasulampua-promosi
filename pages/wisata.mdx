@@ -10,13 +10,15 @@ import Image from "next/image";
 
 export function PariwisataHeader() {
   return (
-    <div className="mx-auto mb-4 max-w-screen-lg border-b border-gray-400 border-opacity-20 pt-2 pb-4">
-        <h1>
-          <p className="font-bold text-center mb-3 lg:text-4xl">Informasi Wisata</p>
-        </h1>
-        <p className="text-center text-gray-500 dark:text-gray-400 font-space-grotesk">
-          Klik salah satu banner di bawah ini untuk informasi selengkapnya
+    <div className="mx-auto mb-4 max-w-screen-lg border-b border-gray-400 border-opacity-20 pb-4 pt-2">
+      <h1>
+        <p className="mb-3 text-center font-bold lg:text-4xl">
+          Informasi Wisata
         </p>
+      </h1>
+      <p className="text-center font-space-grotesk text-gray-500 dark:text-gray-400">
+        Klik salah satu banner di bawah ini untuk informasi selengkapnya
+      </p>
     </div>
   );
 }
@@ -24,26 +26,63 @@ export function PariwisataHeader() {
 export function BannerWisata() {
   return (
     <div className="mx-auto mb-6 max-w-screen-lg border-b border-gray-400 border-opacity-20">
-      <div className="mb-2 grid grid-cols-3 gap-y-10 gap-x-2 xl:gap-x-2">
-        <div className="text-center col-span-2">
-          <Link href="/wisata/infowisata"><Image src="/pariwisata/banner-dispar.png" width="825" height="412" alt="dwp" className="inline-flex" /></Link>
+      <div className="mb-2 grid grid-cols-3 gap-x-2 gap-y-10 xl:gap-x-2">
+        <div className="col-span-2 text-center">
+          <Link href="/wisata/infowisata">
+            <Image
+              src="/pariwisata/banner-dispar.png"
+              width="825"
+              height="412"
+              alt="dwp"
+              className="inline-flex"
+            />
+          </Link>
         </div>
         <div className="text-center">
-          <Link href="/wisata/pusat-oleholeh"><Image src="/pariwisata/banner-oleh.png" width="375" height="412" alt="kuliner" className="inline-flex" /> </Link>
+          <Link href="/wisata/pusat-oleholeh">
+            <Image
+              src="/pariwisata/banner-oleh.png"
+              width="375"
+              height="412"
+              alt="kuliner"
+              className="inline-flex"
+            />{" "}
+          </Link>
         </div>
       </div>
-      <div className="text-center mb-2">
-        <Link href="/wisata/umkm"><Image src="/pariwisata/banner-umkm.png" width="1100" height="412" alt="umkm" className="inline-flex" /> </Link>
+      <div className="mb-2 text-center">
+        <Link href="/wisata/umkm">
+          <Image
+            src="/pariwisata/banner-umkm.png"
+            width="1100"
+            height="412"
+            alt="umkm"
+            className="inline-flex"
+          />{" "}
+        </Link>
       </div>
-      <div className="text-center mb-2">
-        <Link href="https://umkmkonreg.odoo.com/"><Image src="/pariwisata/banner-dwp.png" width="1100" height="412" alt="umkm" className="inline-flex" /> </Link>
-      </div>
-      <div className="mb-6 grid grid-cols-2 gap-y-10 gap-x-2 xl:gap-x-2">
+      <div className="mb-6 grid grid-cols-2 gap-x-2 gap-y-10 xl:gap-x-2">
         <div className="text-center">
-          <Link href="/wisata/oleh-oleh"><Image src="/pariwisata/oleholeh.png" width="550" height="412" alt="dwp" className="inline-flex" /></Link>
+          <Link href="/wisata/oleh-oleh">
+            <Image
+              src="/pariwisata/oleholeh.png"
+              width="550"
+              height="412"
+              alt="dwp"
+              className="inline-flex"
+            />
+          </Link>
         </div>
         <div className="text-center">
-          <Link href="/wisata/kuliner"><Image src="/pariwisata/kuliner.png" width="550" height="412" alt="kuliner" className="inline-flex" /> </Link>
+          <Link href="/wisata/kuliner">
+            <Image
+              src="/pariwisata/kuliner.png"
+              width="550"
+              height="412"
+              alt="kuliner"
+              className="inline-flex"
+            />{" "}
+          </Link>
         </div>
       </div>
     </div>
@@ -65,7 +104,7 @@ export function PariwisataIndex() {
           <Link
             href={page.route}
             style={{ color: "inherit", textDecoration: "none" }}
-            className="text-md mt-2 block text-center justify-center font-medium"
+            className="text-md mt-2 block justify-center text-center font-medium"
           >
             {page.meta?.title || page.frontMatter?.title || page.name}
           </Link>
@@ -74,7 +113,6 @@ export function PariwisataIndex() {
     );
   });
 }
-
 
 <PariwisataHeader />
 <BannerWisata />

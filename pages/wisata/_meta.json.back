@@ -1,0 +1,27 @@
+{
+  "infowisata": "Info Wisata",
+  "kuliner": "Kuliner Khas",
+  "oleh-oleh": "Rekomendasi Oleh-Oleh",
+  "umkm": "- Pameran UMKM BI",
+  "toko-oleh-oleh": "- Toko Oleh-Oleh",
+  "dwp": {
+    "title": "- Bazar DWP",
+    "href": "https://umkmkonreg.odoo.com/"
+  },
+  "paketwisata": {
+    "title": "Paket Wisata",
+    "display": "hidden",
+    "sidebar": false,
+    "theme": {
+      "typesetting": "article"
+    }
+  },
+  "detil-umkm": {
+    "title": "Detil UMKM",
+    "display": "hidden",
+    "sidebar": false,
+    "theme": {
+      "typesetting": "article"
+    }
+  }
+}

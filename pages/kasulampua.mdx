@@ -10,12 +10,15 @@ import Image from "next/image";
 
 export function KasulampuaHeader() {
   return (
-    <div className="max-w-screen-lg mx-auto pt-4 pb-8 mb-6 border-b border-gray-400 border-opacity-20">
+    <div className="mx-auto mb-6 max-w-screen-lg border-b border-gray-400 border-opacity-20 pb-8 pt-4">
       <h1>
-        <p className="font-bold text-center mb-6 lg:text-5xl">Info Kegiatan Konsultasi Regional PDRB Wilayah Kasulampua Tahun 2023</p>
+        <p className="mb-6 text-center font-bold lg:text-5xl">
+          Info Kegiatan Konsultasi Regional PDRB Wilayah Kasulampua Tahun 2024
+        </p>
       </h1>
-      <p className="text-center text-gray-500 dark:text-gray-400 font-space-grotesk">
-        Informasi terkait teknis kegiatan, jadwal/rundown, narasumber, materi, notulen, dll. Klik banner di bawah ini:
+      <p className="text-center font-space-grotesk text-gray-500 dark:text-gray-400">
+        Informasi terkait teknis kegiatan, jadwal/rundown, narasumber, materi,
+        notulen, dll. Klik banner di bawah ini:
       </p>
     </div>
   );
@@ -24,27 +27,42 @@ export function KasulampuaHeader() {
 export function BannerInfo() {
   return (
     <div className="mx-auto mb-6 max-w-screen-lg border-b border-gray-400 border-opacity-20">
-      <div className="text-center mb-2">
-        <Link href="/kasulampua/informasi"><Image src="/akomodasi/bannerinfo.png" width="1100" height="212" alt="hotel" className="inline-flex" /> </Link>
+      <div className="mb-2 text-center">
+        <Link href="/kasulampua/informasi">
+          <Image
+            src="/akomodasi/bannerinfo-sulbar.png"
+            width="1100"
+            height="212"
+            alt="hotel"
+            className="inline-flex"
+          />{" "}
+        </Link>
       </div>
     </div>
   );
 }
 
-
 export function KasulampuaIndex() {
   return getPagesUnderRoute("/kasulampua").map((page) => {
     return (
-        <div className="flex items-center justify-center align-top">
-          <div key={page.route} className="relative">
-            <Link href={page.route}>
-              <img className="items-center rounded-t-lg" src={page.frontMatter?.symbol} alt="icon"/>
-            </Link>
-            <Link href={page.route} style={{ color: "inherit", textDecoration: "none" }} className="block font-medium mt-2 text-md text-center">
-              {page.meta?.title || page.frontMatter?.title || page.name}
-            </Link>
-          </div>
+      <div className="flex items-center justify-center align-top">
+        <div key={page.route} className="relative">
+          <Link href={page.route}>
+            <img
+              className="items-center rounded-t-lg"
+              src={page.frontMatter?.symbol}
+              alt="icon"
+            />
+          </Link>
+          <Link
+            href={page.route}
+            style={{ color: "inherit", textDecoration: "none" }}
+            className="text-md mt-2 block text-center font-medium"
+          >
+            {page.meta?.title || page.frontMatter?.title || page.name}
+          </Link>
         </div>
+      </div>
     );
   });
 }
