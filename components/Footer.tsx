@@ -248,7 +248,7 @@ export function FooterContent() {
           <div className="mt-12 xl:!mt-0">
             <FooterHeader>Ikuti Kami di Media Daring:</FooterHeader>
             <div className="mr-2 mt-2 inline-flex">
-              <a href="https://facebook.com/bpsprovsultra">
+              <a href="https://facebook.com/bpssulbar">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="31"
@@ -263,7 +263,7 @@ export function FooterContent() {
               </a>
             </div>
             <div className="mr-2 mt-2 inline-flex">
-              <a href="https://instagram.com/bpsprovsultra">
+              <a href="https://instagram.com/bpssulbar">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="31"
@@ -280,7 +280,7 @@ export function FooterContent() {
               </a>
             </div>
             <div className="mr-2 mt-2 inline-flex">
-              <a href="https://youtube.com/bpsprovsultra">
+              <a href="https://youtube.com/BPSProvinsiSulawesiBarat">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="31"
@@ -297,7 +297,7 @@ export function FooterContent() {
               </a>
             </div>
             <div className="mr-2 mt-2 inline-flex">
-              <a href="https://sultra.bps.go.id">
+              <a href="https://sulbar.bps.go.id">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="31"

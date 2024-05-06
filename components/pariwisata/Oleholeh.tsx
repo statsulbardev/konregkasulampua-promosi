@@ -22,6 +22,15 @@ const oleh = [
     gmaps: "https://maps.app.goo.gl/VGgXVdK3rETuHciu5",
     kontak: "https://wa.me/081340899397",
   },
+  {
+    id: 3,
+    foto: "/oleh/pawonqu.jpg",
+    nama: "PawonQu",
+    kategori: "oleh-oleh",
+    tag: "kue tradisional",
+    gmaps: "https://maps.app.goo.gl/nqBi45jABuQ8LtG9A",
+    kontak: "https://wa.me/085330226900",
+  },
 ];
 
 export function Oleholeh() {

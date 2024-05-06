@@ -13,7 +13,7 @@ export function Card() {
                 className="rounded-t-lg"
                 width="630"
                 height="420"
-                src="/pattern/pattern-1.svg"
+                src="/pattern/sekomandi-biru.jpg"
                 alt="kasulampua"
               />
             </Link>
@@ -53,7 +53,7 @@ export function Card() {
                 className="rounded-t-lg"
                 width="630"
                 height="420"
-                src="/pattern/pattern-2.svg"
+                src="/pattern/sekomandi-kuning.jpg"
                 alt="kasulampua"
               />
             </Link>
@@ -93,7 +93,7 @@ export function Card() {
                 className="rounded-t-lg"
                 width="630"
                 height="420"
-                src="/pattern/pattern-3.svg"
+                src="/pattern/sekomandi-hijau.jpg"
                 alt="kasulampua"
               />
             </Link>
@@ -133,7 +133,7 @@ export function Card() {
                 className="rounded-t-lg"
                 width="630"
                 height="420"
-                src="/pattern/pattern-4.svg"
+                src="/pattern/sekomandi-merah.jpg"
                 alt="kasulampua"
               />
             </Link>
