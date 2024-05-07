@@ -68,7 +68,7 @@ const objekwisata = [
     lokasi: "Kab. Polewali Mandar",
     jarak: 218,
     durasi: "4,5 jam",
-    tiket: "± 125k",
+    tiket: "± 25k",
     kapal: "-",
     keterangan: "Darat & Laut",
     gmaps: "https://maps.app.goo.gl/N4aQH8hfqdAL7zXi8",
