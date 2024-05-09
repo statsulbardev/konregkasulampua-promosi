@@ -1,0 +1,93 @@
+---
+title: "Pameran UMKM Sulawesi Barat Bank Indonesia"
+description: Pameran UMKM Sulawesi Barat Bank Indonesia
+symbol: "/pariwisata/umkm.svg"
+---
+
+import Image from "next/image";
+import { getPagesUnderRoute } from "nextra/context";
+import Link from "next/link";
+import {
+  PhoneArrowDownLeftIcon,
+  TagIcon,
+  UserIcon,
+} from "@heroicons/react/24/solid";
+
+export function BannerWisata() {
+  return (
+    <div className="relative mx-auto mb-6 max-w-screen-lg border-b border-gray-400 border-opacity-20">
+      <div className="mb-2 text-center">
+        <Image
+          src="/pariwisata/sulbar/banner-umkm.png"
+          width="1100"
+          height="412"
+          alt="umkm"
+          className="inline-flex"
+        ></Image>
+        <Link
+          href="https://wa.me/6282175746976"
+          className="xs:m-2 lg:text-md xl:text-md xs:text-sm absolute bottom-0 right-0 m-2 items-center rounded-full bg-red-500 px-3 py-2 text-center text-sm font-medium text-white shadow-lg shadow-red-700 hover:bg-red-700 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-red-500 dark:hover:bg-red-600 dark:focus:ring-red-600 sm:m-2 sm:text-sm lg:m-6 xl:m-6"
+        >
+          <PhoneArrowDownLeftIcon className="mr-1 inline-flex h-4 w-4 flex-shrink-0 align-middle text-white" />{" "}
+          Pesan Online
+        </Link>
+      </div>
+    </div>
+  );
+}
+
+## Selayang Pandang
+
+<BannerWisata />
+
+**Kantor Perwakilan Bank Indonesia Provinsi Sulawesi Barat** mempersembahkan beberapa produk UMKM Binaan/Mitra Unggulan sebagai upaya kontribusi Bank Indonesia terhadap pengembangan ekonomi daerah.
+
+Pemilihan produk kopi, Makanan Minuman Olahan, dan Kriya tersebut merupakan wujud representasi atas keunikan dan keindahan dari **Bumi Malaqbi**.
+
+## Produk
+
+export function WisataIndex() {
+  return getPagesUnderRoute("/detil-umkm").map((page) => {
+    return (
+      <div key={page.route} className="mb-2">
+        <Link href={page.route}>
+          <Image
+            className="mt-8 block"
+            src={page.frontMatter?.symbol}
+            width="1100"
+            height="165"
+            alt="image"
+          />
+        </Link>
+        <Link
+          href={page.route}
+          style={{ color: "inherit", textDecoration: "none" }}
+          className="mt-2 block text-2xl font-bold"
+        >
+          {page.meta?.title || page.frontMatter?.title || page.name}
+        </Link>
+        <p
+          className="text-md mb-2 font-semibold opacity-80"
+          style={{ marginTop: ".5rem" }}
+        >
+          <UserIcon className="mr-1 inline-flex h-4 w-4 flex-shrink-0 align-middle opacity-80" />{" "}
+          {page.frontMatter?.entitas}{" "}
+        </p>
+        <p className="text-sm opacity-80" style={{ marginTop: ".5rem" }}>
+          {page.frontMatter?.description}{" "}
+        </p>
+        <p className="mb-2 text-sm opacity-80" style={{ marginTop: ".5rem" }}>
+          <TagIcon className="mr-1 inline-flex h-4 w-4 flex-shrink-0 align-middle opacity-80" />{" "}
+          {page.frontMatter?.tag}{" "}
+        </p>
+        <span className="text-md inline-block font-medium text-blue-500">
+          <Link href={page.route}>{"Selengkapnya →"}</Link>
+        </span>
+      </div>
+    );
+  });
+}
+
+<div className="mt-2 grid grid-cols-2 gap-x-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-2">
+  <WisataIndex />
+</div>
