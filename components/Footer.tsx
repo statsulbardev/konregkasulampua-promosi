@@ -69,63 +69,67 @@ const navigation = {
   ],
   bi: [
     {
-      name: "KP Kalimantan Selatan",
+      name: "KPw BI Prov. Kalimantan Selatan",
       href: "https://www.bi.go.id/id/tentang-bi/profil/organisasi/Pages/Kantor-Perwakilan-Provinsi-Kalimantan-Selatan.aspx",
     },
     {
-      name: "KP Kalimantan Barat",
+      name: "KPw BI Prov. Kalimantan Barat",
       href: "https://www.bi.go.id/id/tentang-bi/profil/organisasi/Pages/Kantor-Perwakilan-Provinsi-Kalimantan-Barat.aspx",
     },
     {
-      name: "KP Kalimantan Tengah",
+      name: "KPw BI Prov. Kalimantan Tengah",
       href: "https://www.bi.go.id/id/tentang-bi/profil/organisasi/Pages/Kantor-Perwakilan-Provinsi-Kalimantan-Tengah.aspx",
     },
     {
-      name: "KP Kalimantan Timur",
+      name: "KPw BI Prov. Kalimantan Timur",
       href: "https://www.bi.go.id/id/tentang-bi/profil/organisasi/Pages/Kantor-Perwakilan-Provinsi-Kalimantan-Timur.aspx",
     },
     {
-      name: "KP Kalimantan Utara",
+      name: "KPw BI Prov. Kalimantan Utara",
       href: "https://www.bi.go.id/id/tentang-bi/profil/organisasi/Pages/Kantor-Perwakilan-Provinsi-Kalimantan-Utara.aspx",
     },
     {
-      name: "KP Sulawesi Utara",
+      name: "KPw BI Prov. Sulawesi Utara",
       href: "https://www.bi.go.id/id/tentang-bi/profil/organisasi/Pages/Kantor-Perwakilan-Provinsi-Sulawesi-Utara.aspx",
     },
     {
-      name: "KP Sulawesi Tengah",
+      name: "KPw BI Prov. Sulawesi Tengah",
       href: "https://www.bi.go.id/id/tentang-bi/profil/organisasi/Pages/Kantor-Perwakilan-Provinsi-Sulawesi-Tengah.aspx",
     },
     {
-      name: "KP Sulawesi Selatan",
+      name: "KPw BI Prov. Sulawesi Selatan",
       href: "https://www.bi.go.id/id/tentang-bi/profil/organisasi/Pages/Kantor-Perwakilan-Provinsi-Sulawesi-Selatan.aspx",
     },
     {
-      name: "KP Sulawesi Tenggara",
+      name: "KPw BI Prov. Sulawesi Tenggara",
       href: "https://www.bi.go.id/id/tentang-bi/profil/organisasi/Pages/Kantor-Perwakilan-Provinsi-Sulawesi-Tenggara.aspx",
     },
     {
-      name: "KP Sulawesi Barat",
+      name: "KPw BI Prov. Sulawesi Barat",
       href: "https://www.bi.go.id/id/tentang-bi/profil/organisasi/Pages/Kantor-Perwakilan-Provinsi-Sulawesi-Barat.aspx",
     },
     {
-      name: "KP Gorontalo",
+      name: "KPw BI Prov. Gorontalo",
       href: "https://www.bi.go.id/id/tentang-bi/profil/organisasi/Pages/Kantor-Perwakilan-Provinsi-Gorontalo.aspx",
     },
     {
-      name: "KP Maluku",
+      name: "KPw BI Prov. Maluku",
       href: "https://www.bi.go.id/id/tentang-bi/profil/organisasi/Pages/Kantor-Perwakilan-Provinsi-Maluku.aspx",
     },
     {
-      name: "KP Maluku Utara",
+      name: "KPw BI Prov. Maluku Utara",
       href: "https://www.bi.go.id/id/tentang-bi/profil/organisasi/Pages/Kantor-Perwakilan-Provinsi-Maluku-Utara.aspx",
     },
     {
-      name: "KP Papua",
+      name: "KPw BI Prov. Papua",
       href: "https://www.bi.go.id/id/tentang-bi/profil/organisasi/Pages/Kantor-Perwakilan-Provinsi-Papua.aspx",
     },
     {
-      name: "KP Papua Barat",
+      name: "KPw BI Prov. Papua Barat",
+      href: "https://www.bi.go.id/id/tentang-bi/profil/organisasi/Pages/Kantor-Perwakilan-Provinsi-Papua-Barat.aspx",
+    },
+    {
+      name: "KPw BI Balikpapan",
       href: "https://www.bi.go.id/id/tentang-bi/profil/organisasi/Pages/Kantor-Perwakilan-Provinsi-Papua-Barat.aspx",
     },
   ],
