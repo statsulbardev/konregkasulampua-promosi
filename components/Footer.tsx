@@ -130,7 +130,7 @@ const navigation = {
     },
     {
       name: "KPw BI Balikpapan",
-      href: "https://www.bi.go.id/id/tentang-bi/profil/organisasi/Pages/Kantor-Perwakilan-Provinsi-Papua-Barat.aspx",
+      href: "https://www.bi.go.id/id/tentang-bi/profil/organisasi/Pages/Kantor-Perwakilan-BI-Balikpapan.aspx",
     },
   ],
   djpb: [
