@@ -100,7 +100,7 @@ function LandingPage() {
             `}</style>
           </span>
           <p className="text-md mx-6 mb-0 mt-6 w-[300px] bg-gradient-to-b from-black/80 to-black bg-clip-text text-center font-light leading-tight dark:from-white dark:to-[#AAAAAA] md:!w-full lg:!mt-6 lg:text-lg">
-            📌 Mamuju, 15-16 Mei 2024
+            📌 Mamuju, 15-17 Mei 2024
           </p>
         </FadeIn>
         <FadeIn className="z-10">
