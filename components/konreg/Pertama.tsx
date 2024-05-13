@@ -81,7 +81,7 @@ export function HariPertama() {
               🛎️ Welcome Dinner
             </h5>
             <p className="text-md mt-1 font-normal opacity-80">
-              (<b>Dresscode:</b> Batik/Tenun ? (Kasulampua 2023)
+              (<b>Dresscode:</b> Batik Nasional/Daerah, Lengan Panjang)
             </p>
           </a>
         </div>
@@ -112,11 +112,11 @@ export function HariPertama() {
                 aria-hidden="true"
               />
               <h1 className="text-md font-semibold text-gray-400 dark:text-gray-200">
-                Ruang Phinisi 1 (? Cek Kasulampua 2023)
+                Swimming Pool Area
               </h1>
             </div>
             <p className="text-md mb-6 mt-1 font-normal opacity-80">
-              (<b>Dresscode:</b> Batik/Tenun ? (Cek Kasulampua 2023))
+              (<b>Dresscode:</b> Batik Nasional/Daerah, Lengan Panjang)
             </p>
             <h5 className="text-md mb-1 font-normal tracking-tight text-gray-900 dark:text-white">
               - Tindak Lanjut dan Evaluasi Pelaksanaan Hasil Konreg PDRB
@@ -126,7 +126,7 @@ export function HariPertama() {
               - Penentuan Tuan Rumah Konreg Kasulampua selanjutnya
             </h5>
             <h5 className="text-md mb-6 font-bold tracking-tight text-gray-900 dark:text-white">
-              Pimpinan Rapat : (Cek daftar pimpinan rapat beserta fotonya)
+              Pimpinan Rapat :
             </h5>
             <div className="mt-6 flex items-center space-x-4">
               <div className="flex-shrink-0">
@@ -178,7 +178,7 @@ export function HariPertama() {
               </div>
               <dl className="whitespace-no-wrap ml-3 text-left text-sm font-medium leading-4">
                 <dd className="text-lg text-gray-900 dark:text-white">
-                  Dr. Junda Maulana
+                  Dr. Junda Maulana, M.Si.
                 </dd>
                 <p className="text-sm text-gray-400 dark:text-gray-300">
                   Kepala Bapperida Sulawesi Barat
@@ -243,8 +243,8 @@ export function HariPertama() {
             </div>
             <p className="mt-6 text-sm font-normal text-gray-700 dark:text-gray-400">
               <b>Peserta Rapat:</b> Peserta Inti (selain Kepala Satker),
-              Perwakilan BPS RI, Tim Website dari BPS, BI, dan Bappeda (? Cek
-              Peserta)
+              Perwakilan BPS, Perwakilan Bapperida, Perwakilan BI, dan
+              Perwakilan DJPb
             </p>
           </a>
         </div>

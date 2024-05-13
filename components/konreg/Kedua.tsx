@@ -57,7 +57,7 @@ export function HariKedua() {
               </h1>
             </div>
             <p className="text-md mt-1 font-normal opacity-80">
-              (<b>Dresscode:</b> Seragam Tenun (? Cek drescode))
+              (<b>Dresscode:</b> Seragam Tenun / Batik Lengan Panjang)
             </p>
 
             <hr className="my-4 h-px border-0 bg-gray-200 dark:bg-gray-700" />
