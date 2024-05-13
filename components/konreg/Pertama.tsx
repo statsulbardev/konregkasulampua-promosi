@@ -80,6 +80,15 @@ export function HariPertama() {
             <h5 className="text-lg font-bold tracking-tight text-gray-900 dark:text-white">
               🛎️ Welcome Dinner
             </h5>
+            <div className="mt-2 flex items-center align-middle">
+              <MapPinIcon
+                className="mr-1 h-6 w-6 flex-shrink-0 text-red-500"
+                aria-hidden="true"
+              />
+              <h1 className="text-md font-semibold text-gray-400 dark:text-gray-200">
+                Waterpark Area
+              </h1>
+            </div>
             <p className="text-md mt-1 font-normal opacity-80">
               (<b>Dresscode:</b> Batik Nasional/Daerah, Lengan Panjang)
             </p>
@@ -106,13 +115,13 @@ export function HariPertama() {
             <h5 className="text-lg font-bold tracking-tight text-gray-900 dark:text-white">
               High Level Meeting
             </h5>
-            <div className="mb-3 flex items-center align-middle">
+            <div className="mt-2 flex items-center align-middle">
               <MapPinIcon
                 className="mr-1 h-6 w-6 flex-shrink-0 text-red-500"
                 aria-hidden="true"
               />
               <h1 className="text-md font-semibold text-gray-400 dark:text-gray-200">
-                Swimming Pool Area
+                Waterpark Area
               </h1>
             </div>
             <p className="text-md mb-6 mt-1 font-normal opacity-80">
@@ -128,25 +137,25 @@ export function HariPertama() {
             <h5 className="text-md mb-6 font-bold tracking-tight text-gray-900 dark:text-white">
               Pimpinan Rapat :
             </h5>
-            <div className="mt-6 flex items-center space-x-4">
+            {/* <div className="mt-6 flex items-center space-x-4">
               <div className="flex-shrink-0">
                 <Image
                   className="rounded-full"
                   width="64"
                   height="64"
-                  src="/people/buyung.png"
+                  src="/people/na.png"
                   alt="direktur"
                 />
               </div>
               <dl className="whitespace-no-wrap ml-3 text-left text-sm font-medium leading-4">
                 <dd className="text-lg text-gray-900 dark:text-white">
-                  Buyung Airlangga, M.Bus.
+                  Buyung Airlangga, M.Bus
                 </dd>
                 <p className="text-sm text-gray-400 dark:text-gray-300">
                   Direktur Neraca Pengeluaran BPS RI
                 </p>
               </dl>
-            </div>
+            </div> */}
             <div className="mt-6 flex items-center space-x-4">
               <div className="flex-shrink-0">
                 <Image
@@ -186,8 +195,8 @@ export function HariPertama() {
               </dl>
             </div>
             <p className="mt-6 text-sm font-normal text-gray-700 dark:text-gray-400">
-              <b>Peserta Rapat:</b> Kepala BPS Provinsi, Kepala Perwakilan BI
-              Provinsi, Kepala Bapperida Provinsi, Kepala Kanwil DJPb Provinsi
+              <b>Peserta Rapat:</b> Kepala BPS, Kepala Perwakilan BI, Kepala
+              Bapperida, Kepala Kanwil DJPb
             </p>
 
             <hr className="my-4 h-px border-0 bg-gray-200 dark:bg-gray-700" />
@@ -195,24 +204,15 @@ export function HariPertama() {
               Rapat Teknis Tim Data dan Tim Perumus membahas perumusan
               Kesepakatan Konsultasi Regional PDRB Kasulampua Tahun 2024
             </h5>
-            <div className="mb-1 flex items-center align-middle">
+            <div className="mb-1 mt-2 flex items-center align-middle">
               <MapPinIcon
                 className="mr-1 h-6 w-6 flex-shrink-0 text-red-500"
                 aria-hidden="true"
               />
               <h1 className="text-md font-semibold text-gray-400 dark:text-gray-200">
-                Ruang Tulip
+                Ruang Sriti
               </h1>
             </div>
-            {/* <div className="mb-3 flex items-center align-middle">
-              <ClockIcon
-                className="mr-1 h-6 w-6 flex-shrink-0 text-gray-500"
-                aria-hidden="true"
-              />
-              <h1 className="text-md font-semibold text-gray-400 dark:text-gray-200">
-                19.30 - 20.30 WITA
-              </h1>
-            </div> */}
             {/* <h5 className="text-md mb-1 font-normal tracking-tight text-gray-900 dark:text-white">
               - Pengenalan Website
             </h5>
@@ -228,23 +228,21 @@ export function HariPertama() {
                   className="rounded-full"
                   width="64"
                   height="64"
-                  src="/people/fatoer.png"
+                  src="/people/labi.png"
                   alt="direktur"
                 />
               </div>
               <dl className="whitespace-no-wrap ml-3 text-left text-sm font-medium leading-4">
                 <dd className="text-lg text-gray-900 dark:text-white">
-                  Fatchur Rochman, SST., ME..
+                  Moh. La'bi, S.Si., MM.
                 </dd>
                 <p className="text-sm text-gray-400 dark:text-gray-300">
-                  Pranata Komputer Ahli Madya BPS Prov. Sulawesi Tenggara
+                  Statistis Ahli Madya BPS Prov. Sulawesi Barat
                 </p>
               </dl>
             </div>
             <p className="mt-6 text-sm font-normal text-gray-700 dark:text-gray-400">
-              <b>Peserta Rapat:</b> Peserta Inti (selain Kepala Satker),
-              Perwakilan BPS, Perwakilan Bapperida, Perwakilan BI, dan
-              Perwakilan DJPb
+              <b>Peserta Rapat:</b> Tim Perumus dari BPS, BI, DJPb dan Bapperida
             </p>
           </a>
         </div>

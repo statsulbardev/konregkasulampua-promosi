@@ -53,7 +53,7 @@ export function HariKedua() {
                 aria-hidden="true"
               />
               <h1 className="text-md font-semibold text-gray-400 dark:text-gray-200">
-                Ruang Phinisi (? Cek ruangan)
+                Ballroom
               </h1>
             </div>
             <p className="text-md mt-1 font-normal opacity-80">
@@ -104,7 +104,7 @@ export function HariKedua() {
                   Narasumber:
                 </dd>
                 <dd className="text-lg text-gray-900 dark:text-white">
-                  Dr. Junda Maulana
+                  Dr. Junda Maulana, M.Si.
                 </dd>
                 <p className="text-sm text-gray-400 dark:text-gray-300">
                   Kepala Bapperida Sulawesi Barat
@@ -149,7 +149,7 @@ export function HariKedua() {
                   className="rounded-full"
                   width="64"
                   height="64"
-                  src="/people/ali.png"
+                  src="/people/na.png"
                   alt="Ali"
                 />
               </div>
@@ -157,9 +157,7 @@ export function HariKedua() {
                 <dd className="text-md mb-1 font-bold text-gray-400 dark:text-gray-300">
                   Narasumber:
                 </dd>
-                <dd className="text-lg text-gray-900 dark:text-white">
-                  H. Ali Mazi, SH.
-                </dd>
+                <dd className="text-lg text-gray-900 dark:text-white">-</dd>
                 <p className="text-sm text-gray-400 dark:text-gray-300">
                   Pj. Gubernur Sulawesi Barat
                 </p>
@@ -219,7 +217,7 @@ export function HariKedua() {
                   className="rounded-full"
                   width="64"
                   height="64"
-                  src="/people/azhar.png"
+                  src="/people/na.png"
                   alt="Azhar"
                 />
               </div>
@@ -227,19 +225,14 @@ export function HariKedua() {
                 <dd className="text-md mb-1 font-bold text-gray-400 dark:text-gray-300">
                   Moderator:
                 </dd>
-                <dd className="text-lg text-gray-900 dark:text-white">
-                  Prof. Dr. Ir. Azhar Bafadal, M.Si.
-                </dd>
-                <p className="text-sm text-gray-400 dark:text-gray-300">
-                  Guru Besar Fakultas Pertanian Universitas Haluoleo
-                </p>
+                <dd className="text-lg text-gray-900 dark:text-white">-</dd>
+                <p className="text-sm text-gray-400 dark:text-gray-300">-</p>
               </dl>
             </div>
 
             <hr className="my-4 h-px border-0 bg-gray-200 dark:bg-gray-700" />
             <h5 className="text-md mb-3 font-medium tracking-tight text-gray-900 dark:text-white">
-              Strategi Penguatan Konektivitas dalam Mewujudkan Pertumbuhan
-              Ekonomi Inklusif Kasulampua{" "}
+              -{" "}
             </h5>
             <div className="mt-3 flex items-center space-x-4">
               <div className="flex-shrink-0">
@@ -259,16 +252,15 @@ export function HariKedua() {
                   Mohammad Roudo, ST, MPP, Ph.D
                 </dd>
                 <p className="text-sm text-gray-400 dark:text-gray-300">
-                  Plt. Direktur Regional II, Kedeputian Bidang Pengembangan
-                  Regional Bappenas RI
+                  Direktur Regional II, Kedeputian Bidang Pengembangan Regional,
+                  Kementerian PPN/Bappenas RI
                 </p>
               </dl>
             </div>
 
             <hr className="my-4 h-px border-0 bg-gray-200 dark:bg-gray-700" />
             <h5 className="text-md mb-3 font-medium tracking-tight text-gray-900 dark:text-white">
-              Pemanfaatan Sumberdaya Alam dalam Mendukung Ekonomi yang
-              Berkelanjutan{" "}
+              -{" "}
             </h5>
             <div className="mt-3 flex items-center space-x-4">
               <div className="flex-shrink-0">
@@ -276,7 +268,7 @@ export function HariKedua() {
                   className="rounded-full"
                   width="64"
                   height="64"
-                  src="/people/buyung.png"
+                  src="/people/muchlis.png"
                   alt="Buyung"
                 />
               </div>
@@ -285,15 +277,16 @@ export function HariKedua() {
                   Narasumber:
                 </dd>
                 <dd className="text-lg text-gray-900 dark:text-white">
-                  Buyung Airlangga, M.Bus.
+                  Prof. Muchlis Hamdi MPA., Ph.D.
                 </dd>
                 <p className="text-sm text-gray-400 dark:text-gray-300">
-                  Direktur Neraca Pengeluaran BPS RI
+                  Staf Khusus Menteri Bidang Pemerintahan Kementerian Dalam
+                  Negeri RI
                 </p>
               </dl>
             </div>
 
-            <hr className="my-4 h-px border-0 bg-gray-200 dark:bg-gray-700" />
+            {/* <hr className="my-4 h-px border-0 bg-gray-200 dark:bg-gray-700" />
             <h5 className="text-md mb-3 font-medium tracking-tight text-gray-900 dark:text-white">
               Peran Bank Indonesia dalam Ekonomi Inklusif dalam Memajukan
               Kalimantan dan Sulampua{" "}
@@ -319,7 +312,7 @@ export function HariKedua() {
                   KPW Bank Indonesia Provinsi Sulawesi Selatan
                 </p>
               </dl>
-            </div>
+            </div> */}
           </a>
         </div>
       </div>
@@ -418,8 +411,8 @@ export function HariKedua() {
                   className="rounded-full"
                   width="64"
                   height="64"
-                  src="/people/buyung.png"
-                  alt="Buyung"
+                  src="/people/puji.png"
+                  alt="Puji"
                 />
               </div>
               <dl className="whitespace-no-wrap ml-3 text-left text-sm font-medium leading-4">
@@ -427,10 +420,10 @@ export function HariKedua() {
                   Narasumber:
                 </dd>
                 <dd className="text-lg text-gray-900 dark:text-white">
-                  Buyung Airlangga, M.Bus.
+                  Puji Agus Kurniawan, S.Si., M.A.
                 </dd>
                 <p className="text-sm text-gray-400 dark:text-gray-300">
-                  Direktur Neraca Pengeluaran BPS RI
+                  Direktur Neraca Produksi BPS RI
                 </p>
               </dl>
             </div>
