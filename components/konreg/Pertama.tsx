@@ -234,7 +234,7 @@ export function HariPertama() {
               </div>
               <dl className="whitespace-no-wrap ml-3 text-left text-sm font-medium leading-4">
                 <dd className="text-lg text-gray-900 dark:text-white">
-                  Moh. La'bi, S.Si., MM.
+                  Moh. Labi, S.Si., MM.
                 </dd>
                 <p className="text-sm text-gray-400 dark:text-gray-300">
                   Statistis Ahli Madya BPS Prov. Sulawesi Barat
