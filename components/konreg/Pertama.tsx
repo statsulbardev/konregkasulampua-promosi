@@ -172,16 +172,16 @@ export function HariPertama() {
                   className="rounded-full"
                   width="64"
                   height="64"
-                  src="/people/robert.png"
-                  alt="Robert"
+                  src="/people/junda.png"
+                  alt="Junda Maulana"
                 />
               </div>
               <dl className="whitespace-no-wrap ml-3 text-left text-sm font-medium leading-4">
                 <dd className="text-lg text-gray-900 dark:text-white">
-                  J. Robert, ST, MT.
+                  Dr. Junda Maulana
                 </dd>
                 <p className="text-sm text-gray-400 dark:text-gray-300">
-                  Kepala Bappeda Sulawesi Tenggara
+                  Kepala Bapperida Sulawesi Barat
                 </p>
               </dl>
             </div>

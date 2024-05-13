@@ -75,7 +75,8 @@ export function HariKedua() {
               Bapperida Prov. Sulawesi Barat
             </h5>
             <h5 className="text-md mb-1 font-normal tracking-tight text-gray-900 dark:text-white">
-              - Opening Speech oleh Kepala BPS RI
+              - Opening Speech oleh Deputi Bidang Neraca dan Analisis Statistik
+              BPS RI
             </h5>
             <h5 className="text-md mb-1 font-normal tracking-tight text-gray-900 dark:text-white">
               - Sambutan Plt. Gubernur Sulawesi Barat sekaligus membuka acara
@@ -94,8 +95,8 @@ export function HariKedua() {
                   className="rounded-full"
                   width="64"
                   height="64"
-                  src="/people/robert.png"
-                  alt="Robert"
+                  src="/people/junda.png"
+                  alt="Junda Maulana"
                 />
               </div>
               <dl className="whitespace-no-wrap ml-3 text-left text-sm font-medium leading-4">
@@ -103,17 +104,17 @@ export function HariKedua() {
                   Narasumber:
                 </dd>
                 <dd className="text-lg text-gray-900 dark:text-white">
-                  J. Robert, ST, MT.
+                  Dr. Junda Maulana
                 </dd>
                 <p className="text-sm text-gray-400 dark:text-gray-300">
-                  Kepala Bappeda Sulawesi Tenggara
+                  Kepala Bapperida Sulawesi Barat
                 </p>
               </dl>
             </div>
 
             <hr className="my-4 h-px border-0 bg-gray-200 dark:bg-gray-700" />
             <h5 className="text-md mb-3 font-medium tracking-tight text-gray-900 dark:text-white">
-              Opening Speech Kepala BPS RI
+              Opening Speech
             </h5>
             <div className="mt-3 flex items-center space-x-4">
               <div className="flex-shrink-0">
@@ -121,7 +122,7 @@ export function HariKedua() {
                   className="rounded-full"
                   width="64"
                   height="64"
-                  src="/people/margo.png"
+                  src="/people/edy.png"
                   alt="Margo"
                 />
               </div>
@@ -130,17 +131,17 @@ export function HariKedua() {
                   Narasumber:
                 </dd>
                 <dd className="text-lg text-gray-900 dark:text-white">
-                  Margo Yuwono, S.Si., M.Si.
+                  Moh. Edy Mahmud, S.Si., MP.
                 </dd>
                 <p className="text-sm text-gray-400 dark:text-gray-300">
-                  Kepala Badan Pusat Statistik RI
+                  Deputi Bidang Neraca dan Analisis Statistik BPS RI
                 </p>
               </dl>
             </div>
 
             <hr className="my-4 h-px border-0 bg-gray-200 dark:bg-gray-700" />
             <h5 className="text-md mb-3 font-medium tracking-tight text-gray-900 dark:text-white">
-              Sambutan Gubernur Sulawesi Tenggara sekaligus Membuka Acara
+              Sambutan sekaligus Membuka Acara
             </h5>
             <div className="mt-3 flex items-center space-x-4">
               <div className="flex-shrink-0">
@@ -160,7 +161,7 @@ export function HariKedua() {
                   H. Ali Mazi, SH.
                 </dd>
                 <p className="text-sm text-gray-400 dark:text-gray-300">
-                  Gubernur Sulawesi Tenggara
+                  Pj. Gubernur Sulawesi Barat
                 </p>
               </dl>
             </div>
