@@ -286,6 +286,61 @@ export function HariKedua() {
               </dl>
             </div>
 
+            <hr className="my-4 h-px border-0 bg-gray-200 dark:bg-gray-700" />
+            <h5 className="text-md mb-3 font-medium tracking-tight text-gray-900 dark:text-white">
+              -{" "}
+            </h5>
+            <div className="mt-3 flex items-center space-x-4">
+              <div className="flex-shrink-0">
+                <Image
+                  className="rounded-full"
+                  width="64"
+                  height="64"
+                  src="/people/puji.png"
+                  alt="Blank"
+                />
+              </div>
+              <dl className="whitespace-no-wrap ml-3 text-left text-sm font-medium leading-4">
+                <dd className="text-md mb-1 font-bold text-gray-400 dark:text-gray-300">
+                  Narasumber:
+                </dd>
+                <dd className="text-lg text-gray-900 dark:text-white">
+                  Puji Agus Kurniawan, S.Si., M.A.
+                </dd>
+                <p className="text-sm text-gray-400 dark:text-gray-300">
+                  Direktur Neraca Produksi BPS RI
+                </p>
+              </dl>
+            </div>
+
+            <hr className="my-4 h-px border-0 bg-gray-200 dark:bg-gray-700" />
+            <h5 className="text-md mb-3 font-medium tracking-tight text-gray-900 dark:text-white">
+              -{" "}
+            </h5>
+            <div className="mt-3 flex items-center space-x-4">
+              <div className="flex-shrink-0">
+                <Image
+                  className="rounded-full"
+                  width="64"
+                  height="64"
+                  src="/people/mufti.png"
+                  alt="Blank"
+                />
+              </div>
+              <dl className="whitespace-no-wrap ml-3 text-left text-sm font-medium leading-4">
+                <dd className="text-md mb-1 font-bold text-gray-400 dark:text-gray-300">
+                  Narasumber:
+                </dd>
+                <dd className="text-lg text-gray-900 dark:text-white">
+                  Muhamad Mufti Arkan, S.E., S.S.T., Ak., M.Acc.
+                </dd>
+                <p className="text-sm text-gray-400 dark:text-gray-300">
+                  Tenaga Pengkaji Bidang Perbendaharaan Kementerian Keuangan
+                  Ditjen Perbendaharaan
+                </p>
+              </dl>
+            </div>
+
             {/* <hr className="my-4 h-px border-0 bg-gray-200 dark:bg-gray-700" />
             <h5 className="text-md mb-3 font-medium tracking-tight text-gray-900 dark:text-white">
               Peran Bank Indonesia dalam Ekonomi Inklusif dalam Memajukan

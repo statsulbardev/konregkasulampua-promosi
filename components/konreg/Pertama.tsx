@@ -162,16 +162,16 @@ export function HariPertama() {
                   className="rounded-full"
                   width="64"
                   height="64"
-                  src="/people/puji.png"
+                  src="/people/pipit.png"
                   alt="direktur"
                 />
               </div>
               <dl className="whitespace-no-wrap ml-3 text-left text-sm font-medium leading-4">
                 <dd className="text-lg text-gray-900 dark:text-white">
-                  Puji Agus Kurniawan, S.Si., M.A.
+                  Pipit Helly Sorayan, SE., ME.
                 </dd>
                 <p className="text-sm text-gray-400 dark:text-gray-300">
-                  Direktur Neraca Produksi BPS RI
+                  Direktur Neraca Pengeluaran BPS RI
                 </p>
               </dl>
             </div>
