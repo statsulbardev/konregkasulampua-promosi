@@ -79,7 +79,7 @@ export function HariKedua() {
               BPS RI
             </h5>
             <h5 className="text-md mb-1 font-normal tracking-tight text-gray-900 dark:text-white">
-              - Sambutan Plt. Gubernur Sulawesi Barat sekaligus membuka acara
+              - Sambutan Plh. Gubernur Sulawesi Barat sekaligus membuka acara
             </h5>
             <h5 className="text-md mb-3 font-normal tracking-tight text-gray-900 dark:text-white">
               - Foto Bersama
@@ -149,7 +149,7 @@ export function HariKedua() {
                   className="rounded-full"
                   width="64"
                   height="64"
-                  src="/people/na.png"
+                  src="/people/idris.png"
                   alt="Ali"
                 />
               </div>
@@ -157,9 +157,11 @@ export function HariKedua() {
                 <dd className="text-md mb-1 font-bold text-gray-400 dark:text-gray-300">
                   Narasumber:
                 </dd>
-                <dd className="text-lg text-gray-900 dark:text-white">-</dd>
+                <dd className="text-lg text-gray-900 dark:text-white">
+                  Dr. Muhammad Idris, M.Si.
+                </dd>
                 <p className="text-sm text-gray-400 dark:text-gray-300">
-                  Pj. Gubernur Sulawesi Barat
+                  Plh. Gubernur Sulawesi Barat
                 </p>
               </dl>
             </div>
@@ -210,7 +212,7 @@ export function HariKedua() {
               Pemaparan Materi
             </h5>
 
-            <hr className="my-4 h-px border-0 bg-gray-200 dark:bg-gray-700" />
+            {/* <hr className="my-4 h-px border-0 bg-gray-200 dark:bg-gray-700" />
             <div className="mt-3 flex items-center space-x-4">
               <div className="flex-shrink-0">
                 <Image
@@ -228,12 +230,12 @@ export function HariKedua() {
                 <dd className="text-lg text-gray-900 dark:text-white">-</dd>
                 <p className="text-sm text-gray-400 dark:text-gray-300">-</p>
               </dl>
-            </div>
+            </div> */}
 
             <hr className="my-4 h-px border-0 bg-gray-200 dark:bg-gray-700" />
-            <h5 className="text-md mb-3 font-medium tracking-tight text-gray-900 dark:text-white">
+            {/* <h5 className="text-md mb-3 font-medium tracking-tight text-gray-900 dark:text-white">
               -{" "}
-            </h5>
+            </h5> */}
             <div className="mt-3 flex items-center space-x-4">
               <div className="flex-shrink-0">
                 <Image
@@ -259,9 +261,9 @@ export function HariKedua() {
             </div>
 
             <hr className="my-4 h-px border-0 bg-gray-200 dark:bg-gray-700" />
-            <h5 className="text-md mb-3 font-medium tracking-tight text-gray-900 dark:text-white">
+            {/* <h5 className="text-md mb-3 font-medium tracking-tight text-gray-900 dark:text-white">
               -{" "}
-            </h5>
+            </h5> */}
             <div className="mt-3 flex items-center space-x-4">
               <div className="flex-shrink-0">
                 <Image
@@ -287,9 +289,9 @@ export function HariKedua() {
             </div>
 
             <hr className="my-4 h-px border-0 bg-gray-200 dark:bg-gray-700" />
-            <h5 className="text-md mb-3 font-medium tracking-tight text-gray-900 dark:text-white">
+            {/* <h5 className="text-md mb-3 font-medium tracking-tight text-gray-900 dark:text-white">
               -{" "}
-            </h5>
+            </h5> */}
             <div className="mt-3 flex items-center space-x-4">
               <div className="flex-shrink-0">
                 <Image
@@ -314,9 +316,9 @@ export function HariKedua() {
             </div>
 
             <hr className="my-4 h-px border-0 bg-gray-200 dark:bg-gray-700" />
-            <h5 className="text-md mb-3 font-medium tracking-tight text-gray-900 dark:text-white">
+            {/* <h5 className="text-md mb-3 font-medium tracking-tight text-gray-900 dark:text-white">
               -{" "}
-            </h5>
+            </h5> */}
             <div className="mt-3 flex items-center space-x-4">
               <div className="flex-shrink-0">
                 <Image
@@ -337,6 +339,61 @@ export function HariKedua() {
                 <p className="text-sm text-gray-400 dark:text-gray-300">
                   Tenaga Pengkaji Bidang Perbendaharaan Kementerian Keuangan
                   Ditjen Perbendaharaan
+                </p>
+              </dl>
+            </div>
+
+            <hr className="my-4 h-px border-0 bg-gray-200 dark:bg-gray-700" />
+            {/* <h5 className="text-md mb-3 font-medium tracking-tight text-gray-900 dark:text-white">
+              -{" "}
+            </h5> */}
+            <div className="mt-3 flex items-center space-x-4">
+              <div className="flex-shrink-0">
+                <Image
+                  className="rounded-full"
+                  width="64"
+                  height="64"
+                  src="/people/majid.png"
+                  alt="Blank"
+                />
+              </div>
+              <dl className="whitespace-no-wrap ml-3 text-left text-sm font-medium leading-4">
+                <dd className="text-md mb-1 font-bold text-gray-400 dark:text-gray-300">
+                  Narasumber:
+                </dd>
+                <dd className="text-lg text-gray-900 dark:text-white">
+                  M. Abdul Majid Ikram
+                </dd>
+                <p className="text-sm text-gray-400 dark:text-gray-300">
+                  Deputi Kepala Perwakilan Bank Indonesia Provinsi Sulawesi
+                  Selatan
+                </p>
+              </dl>
+            </div>
+
+            <hr className="my-4 h-px border-0 bg-gray-200 dark:bg-gray-700" />
+            {/* <h5 className="text-md mb-3 font-medium tracking-tight text-gray-900 dark:text-white">
+              -{" "}
+            </h5> */}
+            <div className="mt-3 flex items-center space-x-4">
+              <div className="flex-shrink-0">
+                <Image
+                  className="rounded-full"
+                  width="64"
+                  height="64"
+                  src="/people/aminuddin.png"
+                  alt="Blank"
+                />
+              </div>
+              <dl className="whitespace-no-wrap ml-3 text-left text-sm font-medium leading-4">
+                <dd className="text-md mb-1 font-bold text-gray-400 dark:text-gray-300">
+                  Narasumber:
+                </dd>
+                <dd className="text-lg text-gray-900 dark:text-white">
+                  Prof. DR. Aminuddin Ilmar, SH., MH.
+                </dd>
+                <p className="text-sm text-gray-400 dark:text-gray-300">
+                  Sekretaris Jenderal BKPRS
                 </p>
               </dl>
             </div>
@@ -466,7 +523,7 @@ export function HariKedua() {
                   className="rounded-full"
                   width="64"
                   height="64"
-                  src="/people/puji.png"
+                  src="/people/majid.png"
                   alt="Puji"
                 />
               </div>
@@ -475,10 +532,11 @@ export function HariKedua() {
                   Narasumber:
                 </dd>
                 <dd className="text-lg text-gray-900 dark:text-white">
-                  Puji Agus Kurniawan, S.Si., M.A.
+                  M. Abdul Majid Ikram
                 </dd>
                 <p className="text-sm text-gray-400 dark:text-gray-300">
-                  Direktur Neraca Produksi BPS RI
+                  Deputi Kepala Perwakilan Bank Indonesia Provinsi Sulawesi
+                  Selatan
                 </p>
               </dl>
             </div>
@@ -507,8 +565,9 @@ export function HariKedua() {
               2024 dan Hasil Kesepakatan Musrenbang Regional Sulawesi Tahun 2024
             </h5>
             <p className="mt-2 text-sm font-normal text-gray-700 dark:text-gray-400">
-              <b>Penanda Tangan:</b> Kepala BPS Provinsi, KPW BI Provinsi,
-              Kepala Bappeda Provinsi
+              <b>Penanda Tangan:</b> Kepala BPS Provinsi, Kepala Perwakilan BI
+              Provinsi, Kepala Bapperida Provinsi, Kepala Perwakilan DJPb
+              Provinsi
             </p>
           </a>
         </div>
