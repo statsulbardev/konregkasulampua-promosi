@@ -261,9 +261,10 @@ export function HariKedua() {
             </div>
 
             <hr className="my-4 h-px border-0 bg-gray-200 dark:bg-gray-700" />
-            {/* <h5 className="text-md mb-3 font-medium tracking-tight text-gray-900 dark:text-white">
-              -{" "}
-            </h5> */}
+            <h5 className="text-md mb-3 font-medium tracking-tight text-gray-900 dark:text-white">
+              Peran Kemendagri Melalui Pembinaan Daerah Mendukung Pencapaian
+              Indonesia Emas 2045{" "}
+            </h5>
             <div className="mt-3 flex items-center space-x-4">
               <div className="flex-shrink-0">
                 <Image
